@@ -6,7 +6,7 @@ const closeBtn = document.querySelector('.close-btn');
 hamBurger.addEventListener('click', () => {
     mobileNav.classList.add('navActive');
     overlay.classList.add('navActive');
-    document.body.classList.add('no-scroll');
+    // document.body.classList.add('no-scroll');
 });
 
 closeBtn.addEventListener('click', () => {
