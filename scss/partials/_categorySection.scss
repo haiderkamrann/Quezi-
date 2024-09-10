@@ -1,0 +1,129 @@
+@import "./mixin";
+@import "./colors";
+
+.category-section {
+    width: 88.888%;
+    margin: 0 auto;
+    margin-top: 66px;
+}
+
+.category-content-all {
+    @include flexSpaceBetweenMixin;
+}
+
+.category-content {
+    h2 {
+        color: $white;
+        font-size: 40px;
+    }
+}
+
+.category-content-mobile {
+    @include flexSpaceBetweenMixin;
+    display: none;
+
+    .filter {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        p {
+            color: $white;
+            font-weight: 600;
+            font-size: 14px;
+        }
+    }
+
+    .clear {
+        p {
+            color: $white;
+            font-weight: 600;
+            font-size: 14px;
+            border-bottom: 2px solid $white;
+            padding-bottom: 4px;
+        }
+    }
+}
+
+.action-btns {
+    .popular-quiz {
+        @include CategorySectionBtns;
+
+        i {
+            margin-left: 8px;
+            color: $black;
+        }
+    }
+    .all-categories {
+        @include CategorySectionBtns;
+
+        i {
+            margin-left: 8px;
+            color: $black;
+        }
+    }
+}
+
+.categories-items {
+    margin-top: 61px;
+}
+
+.cards-one-line {
+    @include CategoryCardMain;
+
+    .card {
+        @include CategoryCard;
+
+        p {
+            margin-top: 7px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        span {
+            margin-top: 23px;
+            font-size: 16px;
+        }
+
+        &:first-child {
+            background-color: $btn_yellow;
+        }
+        &:first-child .card-img {
+            @include CategoryCardImg;
+            background-color: $white;
+        }
+        .card-img {
+            @include CategoryCardImg;
+            background-color: $purple_main;
+        }
+    }
+}
+
+.mt-2 {
+    margin-top: 35px;
+}
+
+.cards-one-two {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    text-align: center;
+
+    .card {
+        @include CategoryCard;
+
+        p {
+            margin-top: 7px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        span {
+            margin-top: 23px;
+            font-size: 16px;
+        }
+
+        .card-img {
+            @include CategoryCardImg;
+            background-color: $purple_main;
+        }
+    }
+}

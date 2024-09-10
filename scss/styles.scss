@@ -1,0 +1,283 @@
+@import "./partials/font";
+@import "./partials/colors";
+@import "./partials/header";
+@import "./partials/heroSection";
+@import "./partials/categorySection";
+@import "./partials/quizSection";
+@import "./partials/breakpoints";
+@import "./partials/testimonial";
+@import "./partials/footer";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font_family;
+}
+
+body {
+    background-image: $linear_gradient_background;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: $breakpoint-laptop) {
+    header {
+        margin: 0;
+    }
+    .navbar {
+        padding: 64px 60px 24px 60px;
+    }
+    .menu-items {
+        gap: 0px;
+    }
+    .quezi-logo {
+        display: none;
+    }
+    .nav-links li a {
+        display: none;
+    }
+    .auth-buttons {
+        display: none;
+    }
+    .helpIcon {
+        display: block !important;
+    }
+    .mobile-menu {
+        display: block !important;
+    }
+    .action-btns {
+        display: none;
+    }
+    .category-content-mobile {
+        display: flex;
+        margin-top: 13px;
+    }
+    .question {
+        width: auto;
+        margin-top: 40px;
+        h5 {
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+    #progress {
+        width: 500px;
+    }
+    .options .option {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .question-timer .question-no p {
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .question-timer .timer p {
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .testimonial-navigation {
+        gap: 38%;
+    }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+    .question {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .options {
+        margin-top: 20px;
+    }
+    .testimonial-header p {
+        display: none;
+    }
+    .testimonial-header {
+        justify-content: center;
+    }
+    .testimonial-header h6 {
+        font-size: 36px;
+        text-align: center;
+    }
+    .testimonial-navigation {
+        gap: 33%;
+    }
+    .navigation {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .social-links {
+        width: 100%;
+    }
+    // .social-links {
+    //     margin: 0 auto;
+    // }
+    .main-links {
+        margin: 0 auto;
+    }
+    .company {
+        ul li {
+            display: none;
+        }
+    }
+    .support {
+        ul li {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-mobilelarge) {
+    .hero {
+        margin-top: 250px;
+        h1 {
+            font-size: 33px;
+            font-weight: 700;
+        }
+        p {
+            font-size: 14px;
+        }
+        button {
+            margin-top: 41px;
+            padding: 20px 30px 20px 30px;
+            height: 82px;
+        }
+    }
+    .hero-content {
+        width: 88.888% !important;
+    }
+    .join {
+        display: block !important;
+    }
+    .start-quiz {
+        display: none !important;
+    }
+    .quiz-content h4 {
+        font-size: 32px;
+        font-weight: 700;
+        color: white;
+    }
+    .quiz-section {
+        background-color: transparent;
+        width: 100%;
+        margin-top: 41px;
+        padding: 0;
+        width: 88.888%;
+    }
+    .category-section {
+        margin-top: 21px;
+    }
+    .category-content h2 {
+        color: $white;
+        font-size: 30px;
+    }
+    .categories-items {
+        margin-top: 41px;
+    }
+    .cards-one-line {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+        .card {
+            width: 177px !important;
+            text-align: center;
+            p {
+                margin-top: 7px;
+                font-size: 16px;
+                font-weight: 600;
+            }
+            span {
+                margin-top: 23px;
+                font-size: 10px;
+            }
+        }
+    }
+    .cards-one-two {
+        justify-content: center;
+        .card {
+            width: 177px !important;
+            text-align: center;
+            p {
+                margin-top: 7px;
+                font-size: 16px;
+                font-weight: 600;
+            }
+            span {
+                margin-top: 23px;
+                font-size: 10px;
+            }
+        }
+    }
+    .mt-2 {
+        margin-top: 12px;
+    }
+    .hide {
+        display: none !important;
+    }
+    .testimonial-section {
+        margin-top: 61px;
+    }
+    .testimonial-card {
+        .stars {
+            font-size: 15px;
+        }
+    }
+    .testimonial-card .date {
+        font-size: 12px;
+    }
+
+    .options {
+        .option {
+            margin-top: 11px;
+        }
+        .option:first-child {
+            margin-top: 11px;
+        }
+    }
+    .question {
+        padding: 15px;
+    }
+    .testimonial-card {
+        margin-top: 20px;
+        height: 500px;
+    }
+    .testimonial-navigation {
+        transform: translate(0px, -95px);
+        gap: 25%;
+    }
+    .dots-main {
+        display: flex;
+    }
+    .footer {
+        padding: 30px 32px 40px 32px;
+    }
+
+    .progress-bar {
+        margin-top: 27px;
+    }
+    progress {
+        border: none;
+    }
+}
+
+@media screen and (max-width: $breakpoint-4k) {
+    .hide-card{
+        display: none;
+    }
+    .cards-one-two .card {
+        width: 541px;
+    }
+}
+
+@media screen and (max-width: $breakpoint-mobilesmall) {
+    .navbar {
+        padding: 64px 20px 24px 20px;
+    }
+    .testimonial-navigation {
+        transform: translate(0px, -95px);
+        gap: 18%;
+    }
+}

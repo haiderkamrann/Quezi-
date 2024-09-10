@@ -1,0 +1,148 @@
+@import "./colors";
+
+.quiz-section {
+    width: 88.888%;
+    margin: 0 auto;
+    margin-top: 92px;
+    background-color: $purple_secondary;
+    padding: 30px 50px 30px 50px;
+    border-radius: 22px;
+}
+
+.quiz-content {
+    h4 {
+        font-size: 48px;
+        font-weight: 700;
+        color: $white;
+    }
+}
+
+.progress-bar {
+    position: relative;
+    margin-top: 53px;
+    width: 100%;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+progress {
+    width: 100%;
+    height: 17px; 
+    border-radius: 100px;
+    overflow: hidden;
+    appearance: none; 
+    z-index: 2; 
+    position: relative;
+    border: 1px solid black;
+}
+
+/* Styling for the WebKit browsers */
+progress::-webkit-progress-bar {
+    background-color: #6c5c9d; 
+    border-radius: 100px;
+}
+
+progress::-webkit-progress-value {
+    background-color: $yellow_secondary; 
+    border-radius: 100px;
+}
+
+/* Styling for Firefox */
+progress::-moz-progress-bar {
+    background-color: $yellow_secondary; 
+    border-radius: 100px;
+}
+
+// .progress-bar::before {
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     background-color: rgba(230, 197, 248, 0.5); 
+//     z-index: 1; 
+// }
+
+.question-timer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+    .question-no {
+        p {
+            color: $white;
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+
+    .timer {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        p {
+            color: $white;
+            font-size: 24px;
+            font-weight: 600;
+        }
+    }
+}
+
+.quiz-img {
+    margin-top: 52px;
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+}
+
+.question-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question {
+    padding: 60px 50px 60px 50px;
+    background: $white;
+    border-radius: 12px;
+    width: 899px;
+    margin-top: -80px;
+    position: relative;
+
+    h5 {
+        font-size: 48px;
+        font-weight: 600;
+        text-align: center;
+    }
+}
+
+.options {
+    // width: 1180px;
+    display: flex;
+    flex-direction: column;
+
+    .option {
+        padding: 20px;
+        border-radius: 12px;
+        margin-top: 21px;
+        border: none;
+        font-size: 32px;
+        font-weight: 600;
+
+        &:first-child {
+            margin-top: 53px;
+        }
+
+        &:hover {
+            // background-color: $yellow_secondary;
+            cursor: pointer;
+            transition: 1s linear;
+        }
+    }
+}

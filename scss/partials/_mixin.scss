@@ -1,0 +1,48 @@
+@import "./colors";
+
+@mixin CategorySectionBtns {
+    height: 67px;
+    background-color: $white;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px 20px;
+    border-radius: 12px;
+    margin-left: 10px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+@mixin flexSpaceBetweenMixin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin CategoryCardMain {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+}
+
+@mixin CategoryCard {
+    width: 296px;
+    height: 231px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $white;
+    border-radius: 22px;
+}
+
+@mixin CategoryCardImg{
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}

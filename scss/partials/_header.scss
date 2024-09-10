@@ -1,0 +1,145 @@
+@import'./colors';
+
+header{
+    margin-top: 64px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    width: 88.888%;
+    margin: 0 auto;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+    li {
+        margin: 0 15px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $white;
+        font-weight: 500;
+        font-size: 1.125rem;
+    }
+}
+
+.auth-buttons {
+    a {
+        text-decoration: none;
+        color: $white;
+        padding: 16px 24px 16px 24px;
+        border-radius: 8px;
+        margin-left: 10px;
+        font-weight: 700;
+        display: inline-block;
+        height: 59px;
+    }
+}
+
+.auth-buttons {
+    .get-started {
+        background-color: $white;
+        color: #000;
+        font-weight: bold;
+        display: inline-block;
+        height: 59px;
+    }
+}
+
+.mobile-menu{
+    display: none;
+}
+
+.menu-items {
+    .logo {
+        .helpIcon {
+            display: none;
+        }
+    }
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    backdrop-filter: blur(2px);
+}
+
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #362B59;
+    z-index: 1001;
+    transition: left 0.3s ease;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo-mb{
+    margin-bottom: 20px;
+}
+
+.close-btn {
+    font-size: 24px;
+    cursor: pointer;
+    display: block;
+    text-align: right;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.mobile-nav-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mobile-nav-links li {
+    margin: 15px 0;
+}
+
+.mobile-nav-links li a {
+    text-decoration: none;
+    color: $white;
+    font-size: 18px;
+}
+
+.overlay.navActive {
+    opacity: 1;
+    visibility: visible;
+}
+
+.mobile-nav.navActive {
+    left: 0; 
+}
+
+.no-scroll {
+    overflow: hidden;
+}

@@ -1,0 +1,95 @@
+@import './colors';
+
+.footer {
+    padding: 40px 80px 64px 80px;
+    background: $white;
+    margin-top: 61px;
+
+    p{
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 35%;
+}
+
+.apple-google{
+    display: flex;
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    justify-content: center;
+    flex-wrap: wrap;
+    img{
+        width: 175px;
+        height: 75px;
+    }
+}
+
+.social-links-more {
+    display: flex;
+    margin-top: 24px;
+    gap: 20px;
+    img {
+        background-color: $social_links_bg;
+        border-radius: 20px;
+        width: 40px;
+        height: 40px;
+        object-fit: scale-down;
+    }
+}
+
+.main-links{
+    display: flex;
+    gap: 30px;
+}
+
+.company {
+    h6 {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 14px;
+    }
+    ul li {
+        list-style: none;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 36px;
+    }
+}
+
+.support {
+    h6 {
+        margin-bottom: 14px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    ul li {
+        line-height: 36px;
+        list-style: none;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+.copyright {
+    p {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        color: $black;
+        margin-top: 40px;
+    }
+}

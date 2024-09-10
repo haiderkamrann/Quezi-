@@ -1,0 +1,271 @@
+[
+  {
+    "id": 4,
+    "firstName": "Aretha",
+    "lastName": "Mccarthy",
+    "email": "dakazujele@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-5 / 22:23:1",
+    "updatedAt": ""
+  },
+  {
+    "id": 5,
+    "firstName": "Kalia",
+    "lastName": "Wilkerso",
+    "email": "nipav@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-5 / 22:23:5",
+    "updatedAt": "2024-09-06 / 11:10:45"
+  },
+  {
+    "id": 6,
+    "firstName": "Audrey",
+    "lastName": "Oneill",
+    "email": "cycidisaj@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-5 / 22:23:9",
+    "updatedAt": ""
+  },
+  {
+    "id": 7,
+    "firstName": "Ginger",
+    "lastName": "Gould",
+    "email": "vucacewar@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-5 / 22:23:14",
+    "updatedAt": ""
+  },
+  {
+    "id": 8,
+    "firstName": "Barclay",
+    "lastName": "Poole",
+    "email": "miqo@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-5 / 22:23:21",
+    "updatedAt": ""
+  },
+  {
+    "id": 14,
+    "firstName": "Tatiana",
+    "lastName": "Pittman",
+    "email": "sadakodi@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-5 / 22:23:47",
+    "updatedAt": ""
+  },
+  {
+    "id": 15,
+    "firstName": "Tatyana",
+    "lastName": "Foreman",
+    "email": "xywuj@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-5 / 22:23:52",
+    "updatedAt": ""
+  },
+  {
+    "id": 16,
+    "firstName": "Samantha",
+    "lastName": "Richardson",
+    "email": "cogy@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-5 / 22:23:56",
+    "updatedAt": ""
+  },
+  {
+    "id": 17,
+    "firstName": "Ann",
+    "lastName": "Harris",
+    "email": "fabyp@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-5 / 22:23:59",
+    "updatedAt": ""
+  },
+  {
+    "id": 18,
+    "firstName": "Otto",
+    "lastName": "Allison",
+    "email": "fitevafub@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-5 / 22:24:4",
+    "updatedAt": ""
+  },
+  {
+    "id": 19,
+    "firstName": "Wylie",
+    "lastName": "Turner",
+    "email": "lopudy@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-5 / 22:24:8",
+    "updatedAt": ""
+  },
+  {
+    "id": 20,
+    "firstName": "Ferris",
+    "lastName": "Vaughan",
+    "email": "tynobev@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-5 / 22:24:11",
+    "updatedAt": ""
+  },
+  {
+    "id": 21,
+    "firstName": "Nora",
+    "lastName": "Rosa",
+    "email": "nesil@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-6 / 11:11:12",
+    "updatedAt": ""
+  },
+  {
+    "id": 22,
+    "firstName": "Anjolie",
+    "lastName": "Battle",
+    "email": "gowybitir@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "profilePicture": "profilePicture-1725603400429-698484593.jfif",
+    "createdAt": "2024-9-6 / 11:16:40",
+    "updatedAt": ""
+  },
+  {
+    "id": 23,
+    "firstName": "Herman",
+    "lastName": "Freeman",
+    "email": "viqabaw@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-6 / 11:16:48",
+    "updatedAt": ""
+  },
+  {
+    "id": 24,
+    "firstName": "Ashely",
+    "lastName": "Sawyer",
+    "email": "zuwy@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-6 / 11:17:4",
+    "updatedAt": ""
+  },
+  {
+    "id": 25,
+    "firstName": "Jackson",
+    "lastName": "Hester",
+    "email": "fenaju@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-6 / 11:17:8",
+    "updatedAt": ""
+  },
+  {
+    "id": 26,
+    "firstName": "Charlotte",
+    "lastName": "Rich",
+    "email": "lyron@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-6 / 11:17:12",
+    "updatedAt": ""
+  },
+  {
+    "id": 27,
+    "firstName": "Hilary",
+    "lastName": "Ferrell",
+    "email": "garyq@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-6 / 11:17:15",
+    "updatedAt": ""
+  },
+  {
+    "id": 28,
+    "firstName": "Xanthus",
+    "lastName": "Silva",
+    "email": "hyhes@mailinator.com",
+    "password": "Pa$$w0rd!",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-6 / 11:43:5",
+    "updatedAt": ""
+  },
+  {
+    "id": 29,
+    "firstName": "Calista",
+    "lastName": "Gentry",
+    "email": "hyvunezu@mailinator.com",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-6 / 11:57:19",
+    "updatedAt": ""
+  },
+  {
+    "id": 30,
+    "firstName": "Seth",
+    "lastName": "Pitts",
+    "email": "pivyzixoxu@mailinator.com",
+    "password": "$2b$10$P.2yflJmNSDKQALgr2Nl..RDwGxLyNDGSzXqd2.vgjSF4HDwzmkiG",
+    "profilePicture": "profilePicture-1725605978757-359744172.jpeg",
+    "createdAt": "2024-9-6 / 11:59:38",
+    "updatedAt": ""
+  },
+  {
+    "id": 31,
+    "firstName": "Christopher",
+    "lastName": "Mays",
+    "email": "goto@mailinator.com",
+    "password": "$2b$10$GxnuGhGGt0oAD.Z4kYVFnetQEQqHO4fTRtmaxPvR9qFZNRmDkkqWu",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-9 / 16:34:5",
+    "updatedAt": ""
+  },
+  {
+    "id": 32,
+    "firstName": "Cheyenne",
+    "lastName": "Anderson",
+    "email": "syjypu@mailinator.com",
+    "password": "$2b$10$pAksh34QXACV4CKNb9LBMOvd3qRoB2vjXRDsjWceR5WFFr.PLygbW",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-9 / 16:34:41",
+    "updatedAt": ""
+  },
+  {
+    "id": 33,
+    "firstName": "Clayton",
+    "lastName": "Horne",
+    "email": "jekufe@mailinator.com",
+    "password": "$2b$10$hHFEG2pywFtZ2p8YEc06ye/Bwj9h.NsRpjCuS4nQFmE4O3LH3R2hy",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-9 / 16:35:20",
+    "updatedAt": ""
+  },
+  {
+    "id": 34,
+    "firstName": "Brendan",
+    "lastName": "Clayton",
+    "email": "dytufak@mailinator.com",
+    "password": "$2b$10$.MdOjXKUEvPiu5TH3O1ysu6HECdiSYGsfA2Idbodv8.l5/uN7GcJu",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-9 / 16:36:21",
+    "updatedAt": ""
+  },
+  {
+    "id": 35,
+    "firstName": "Karina",
+    "lastName": "Frederick",
+    "email": "sadakodi@mkailinator.com",
+    "password": "$2b$10$BQiyqRY/ShljxP2mzamjKen1Eos/o5/1Q7JWuo/1sanY9Tx7CsxLq",
+    "profilePicture": "defaultImage.png",
+    "createdAt": "2024-9-10 / 11:18:41",
+    "updatedAt": ""
+  }
+]

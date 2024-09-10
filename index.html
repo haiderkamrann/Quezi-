@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quezi</title>
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- STYLESHEET LINK -->
+    <link rel="stylesheet" href="./scss/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <!-- NAV-BAR STRUCTURE -->
+    <header>
+        <nav class="navbar">
+            <div class="menu-items">
+                <div class="logo">
+                    <img class="helpIcon" src="./images/help.png" alt="">
+                    <img class="quezi-logo" src="./images/logo.png" alt="Quezi">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="./userData.html">Users</a></li>
+                    <li><a href="#quiz">Discover Quiz</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Feature</a></li>
+                    <li><a href="#">Leaderboard</a></li>
+                </ul>
+            </div>
+            <div class="auth-buttons">
+                <a href="#" class="sign-in">Sign In</a>
+                <a href="#" class="get-started">Get Started</a>
+            </div>
+
+            <div class="mobile-menu">
+                <img class="hamBurger" src="./images/menu.png" alt="">
+            </div>
+        </nav>
+        <div class="overlay"></div>
+        <div class="mobile-nav">
+            <span class="close-btn">&times;</span>
+            <div class="logo-mb">
+                <img src="./images/logo.png" alt="Quezi">
+            </div>
+            <ul class="mobile-nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./userData.html">Users</a></li>
+                <li><a href="#quiz">Discover Quiz</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Feature</a></li>
+                <li><a href="#">Leaderboard</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- HERO MAIN SECTION -->
+    <main class="hero">
+        <div class="hero-content">
+            <h1 id="heading-typewriter">Get Ready for an Exciting Quiz Adventure!</h1>
+            <p>Train your brain with smart, scientifically backed games that enhance various cognitive functions. Start
+                improving your mental fitness with us today.</p>
+            <button class="start-quiz"><a href="#quiz">Discover Quiz</a></button>
+            <button class="join">Join Now</button>
+        </div>
+    </main>
+
+    <!-- CATEGORY SECTION -->
+    <section class="category-section">
+        <div class="category-content-all">
+            <div class="category-content">
+                <h2><u>Select a category</u></h2>
+            </div>
+            <div class="action-btns">
+                <button class="popular-quiz">Popular Quiz <i class="fa-solid fa-caret-down"></i></button>
+                <button class="all-categories">All Category <i class="fa-solid fa-caret-down"></i></button>
+            </div>
+        </div>
+
+        <div class="category-content-mobile">
+            <div class="filter">
+                <img src="./images/filter.png" alt="filter">
+                <p>Filter by</p>
+            </div>
+            <div class="clear">
+                <p>Clear</p>
+            </div>
+        </div>
+
+        <div class="categories-items">
+            <div class="cards-one-two mt-2">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./images/browse_activity.png" alt="">
+                    </div>
+                    <p>Science Technology</p>
+                    <span>10 Quizzes</span>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./images/ecg_heart.png" alt="">
+                    </div>
+                    <p>Geography Quiz</p>
+                    <span>10 Quizzes</span>
+                </div>
+                <div class="card hide">
+                    <div class="card-img">
+                        <img src="./images/ecg_heart.png" alt="">
+                    </div>
+                    <p>Mathematics Quiz</p>
+                    <span>10 Quizzes</span>
+                </div>
+                <div class="card hide">
+                    <div class="card-img">
+                        <img src="./images/ecg_heart.png" alt="">
+                    </div>
+                    <p>General Quiz</p>
+                    <span>10 Quizzes</span>
+                </div>
+            </div>
+            <div class="cards-one-two mt-2">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./images/browse_activity.png" alt="">
+                    </div>
+                    <p>History Quiz</p>
+                    <span>10 Quizzes</span>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./images/ecg_heart.png" alt="">
+                    </div>
+                    <p>Health Quiz</p>
+                    <span>10 Quizzes</span>
+                </div>
+                <div class="card hide">
+                    <div class="card-img">
+                        <img src="./images/ecg_heart.png" alt="">
+                    </div>
+                    <p>Music Knowledge</p>
+                    <span>10 Quizzes</span>
+                </div>
+                <div class="card hide">
+                    <div class="card-img">
+                        <img src="./images/ecg_heart.png" alt="">
+                    </div>
+                    <p>Foodie</p>
+                    <span>10 Quizzes</span>
+                </div>
+            </div>
+            <div class="cards-one-two mt-2 hide-card">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./images/browse_activity.png" alt="">
+                    </div>
+                    <p>History Quiz</p>
+                    <span>10 Quizzes</span>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./images/ecg_heart.png" alt="">
+                    </div>
+                    <p>Health Quiz</p>
+                    <span>10 Quizzes</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- QUIZ SECTION -->
+    <section id="quiz" class="quiz-section">
+        <div class="quiz-content">
+            <h4>Ready for the Challenge? Start Your Quiz!</h4>
+        </div>
+        <div class="progress-bar">
+            <progress id="progressbar" value="20" max="100"> 32% </progress>
+        </div>
+        <div class="question-timer">
+            <div class="question-no">
+                <p>Question 2 of 15</p>
+            </div>
+            <div class="timer">
+                <img src="./images/times.png" alt="">
+                <p>00:40</p>
+            </div>
+        </div>
+        <div class="quiz-img">
+            <img src="./images/river.jpg" alt="mississipi-river">
+        </div>
+        <div class="question-main">
+            <div class="question">
+                <h5 id="question-text">Loading question...</h5>
+            </div>
+        </div>
+        <div class="options">
+            <button class="option" id="option1"></button>
+            <button class="option" id="option2"></button>
+            <button class="option" id="option3"></button>
+            <button class="option" id="option4"></button>
+        </div>
+    </section>
+
+    <!-- PARTICIPANT TESTIMONIALS -->
+    <div class="testimonial-section">
+        <div class="testimonial-header">
+            <h6>Participant Testimonials</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+
+        <!-- Slide 1 -->
+        <div class="testimonial-card mySlides fade">
+            <div class="rating-date">
+                <div class="stars">★★★★★</div>
+                <div class="date">March 15, 2024</div>
+            </div>
+            <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.
+            </div>
+            <div class="region">
+                <div class="author">John Smith</div>
+                <div class="location">New York, USA</div>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="testimonial-card mySlides fade">
+            <div class="rating-date">
+                <div class="stars">★★★★★</div>
+                <div class="date">March 15, 2024</div>
+            </div>
+            <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ducimus
+                blanditiis, sint facilis quis.
+            </div>
+            <div class="region">
+                <div class="author">John Smith</div>
+                <div class="location">Los Angeles, USA</div>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="testimonial-card mySlides fade">
+            <div class="rating-date">
+                <div class="stars">★★★★★</div>
+                <div class="date">March 15, 2024</div>
+            </div>
+            <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+            </div>
+            <div class="region">
+                <div class="author">John Smith</div>
+                <div class="location">Texas, USA</div>
+            </div>
+        </div>
+
+        <!-- Navigation Controls -->
+        <div class="testimonial-navigation">
+            <i class="fa-solid fa-less-than prev" onclick="plusSlides(-1)"></i>
+            <div class="dots-main">
+                <div class="dot" onclick="currentSlide(1)"></div>
+                <div class="dot" onclick="currentSlide(2)"></div>
+                <div class="dot" onclick="currentSlide(3)"></div>
+            </div>
+            <i class="fa-solid fa-greater-than next" onclick="plusSlides(1)"></i>
+        </div>
+    </div>
+
+    <!-- FOOTER  -->
+    <footer class="footer">
+        <div class="navigation">
+            <div class="social-links">
+                <div class="apple-google">
+                    <img src="./images/google play.png" alt="google-play">
+                    <img src="./images/apple store.png" alt="apple-store">
+                </div>
+                <div class="social-links-more">
+                    <img src="./images/f.png" alt="f">
+                    <img src="./images/slideshow.png" alt="slideshow">
+                    <img src="./images/raven.png" alt="raven">
+                </div>
+
+            </div>
+
+            <div class="main-links">
+                <div class="company">
+                    <h6>Company</h6>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Career</li>
+                        <li>Event</li>
+                    </ul>
+                </div>
+                <div class="support">
+                    <h6>Support</h6>
+                    <ul>
+                        <li>FAQ</li>
+                        <li>Call Center</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <p>2024. All rights reserved</p>
+
+    </footer>
+
+    <script src="./js/carousal.js"></script>
+    <script src="./js/loadQuestion.js"></script>
+    <script src="./js/navbar.js"></script>
+    <!-- <script src="./js/typewriter.js"></script> -->
+
+</body>
+
+</html>

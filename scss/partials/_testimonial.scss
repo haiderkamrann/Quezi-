@@ -1,0 +1,157 @@
+@import "./colors";
+
+.testimonial-section {
+    width: 88.888%;
+    margin: 0 auto;
+    margin-top: 80px;
+    position: relative;
+}
+.testimonial-header {
+    display: flex;
+    justify-content: space-between;
+
+    h6 {
+        font-size: 48px;
+        font-weight: 700;
+        color: $white;
+    }
+    p {
+        color: $white;
+        width: 35%;
+        text-align: right;
+    }
+}
+
+.region {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.testimonial-card {
+    background-color: $white;
+    color: #000;
+    padding: 32px;
+    border-radius: 16px;
+    margin-top: 61px;
+    height: 390px;
+}
+
+.rating-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.testimonial-card .stars {
+    color: $yellow_third;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.testimonial-card .date {
+    font-size: 16px;
+    color: $light_gray;
+    font-weight: 500;
+}
+
+.testimonial-card .content {
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.testimonial-card .author {
+    font-weight: bold;
+    font-size: 18px;
+}
+.testimonial-card .location {
+    color: $light_gray;
+    font-size: 16px;
+}
+
+.testimonial-navigation {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px, -95px);
+    gap: 42%;
+}
+
+.testimonial-navigation {
+    & i:first-child {
+        background-color: #b9b9b9;
+        width: 40px;
+        height: 40px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    & i:last-child {
+        background-color: #130c28;
+        width: 40px;
+        height: 40px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}
+
+// .testimonial-navigation .dot {
+//     display: inline-block;
+//     width: 10px;
+//     height: 10px;
+//     margin: 0 5px;
+//     background-color: #ccc;
+//     border-radius: 50%;
+//     cursor: pointer;
+// }
+
+// .testimonial-navigation .dot.active {
+//     background-color: #ffd700;
+// }
+
+.mySlides {
+    display: none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+// .active,
+// .dot:hover {
+//     background-color: $btn_yellow;
+// }
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #fcde1d !important;
+}
