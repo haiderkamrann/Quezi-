@@ -1,6 +1,6 @@
 I successfully implemented a range of functionalities for a website project, ensuring it was fully responsive and adhered strictly to the Figma design provided:
 
-1. **Full Responsiveness:** Ensured that the entire website was fully responsive, adjusting to different screen sizes, including mobile, tablet, and desktop views, while maintaining a consistent and user-friendly layout.
+1. **Full Responsiveness:** Ensured that the entire website was fully responsive, adjusting to different screen sizes, including mobile, tablet, and desktop views, while maintaining a consistent and user-friendly layout. <br/>
 2. **Adherence to Figma Design:** All the designs and layouts followed the Figma design provided, ensuring pixel-perfect accuracy in the user interface and experience.
 3. **Carousel Functionality:** Integrated a fully functional carousel that allows users to scroll through users testimonials, enhancing the user experience.
 4. **Navbar Enhancements:** Developed a responsive navbar that transforms into a sidebar when viewed on smaller screens. The hamburger icon triggers this sidebar, which slides in from the left. Additionally, when the sidebar is open, the rest of the page is blurred for a seamless user interaction.
